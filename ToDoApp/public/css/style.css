@@ -1,0 +1,156 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#loginDiv {
+    position: relative;
+}
+
+
+#login {
+    position: absolute;
+    display: none;
+    width: 300px;
+    right: 0px;
+    top: 65px;
+}
+
+#login .input-group>span {
+    background-color: #074e2381;
+    color: white;
+    border: none;
+}
+
+#login .input-group>input {
+    background-color: #6cc78f81;
+    color: white;
+    border: none;
+}
+
+#login .input-group>input::placeholder {
+    color: white;
+}
+
+h1 {
+    text-decoration: underline double;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.TodoMain {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.445); 
+    background-color: rgb(227, 250, 227);
+    margin: 50px auto 20px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+}
+
+.TodoMain h4 {
+    margin: 0 0 15px 15px;
+}
+
+.TodoMain #todoInp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.TodoMain #todoInp textarea {
+    background-color: #98b98a;
+    border: 2px solid #7fa170;
+    min-height: 50px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    width: 95%;
+}
+
+.TodoMain #todoInp textarea:focus {
+    border: 2px solid #538a3b;
+}
+
+.TodoMain #todoTitle {
+    justify-content: center;
+    margin: 10px auto;
+    display: flex;
+    width: 100%;
+}
+
+.TodoMain #todoTitle input {
+    background-color: #98b98a;
+    border: 2px solid #7fa170;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    width: 95%;
+}
+
+.TodoMain #todoTitle input:focus {
+    border: 2px solid #538a3b;
+}
+
+.TodoMain #addNote {
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.TodoMain #addNote button {
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 0 auto;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.todoList {
+    border-top: 2px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    width: 90%;
+}
+
+.todoList h2 {
+    text-decoration: underline double;
+    margin: 0 0 15px;
+}
+
+.todoList #todoListItems {
+    text-align: right;
+    list-style: none;
+}
+
+.todoList #todoListItems li {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.589);
+    background-color: #ccc8c8;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.todoList #todoListItems li h2 {
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+}
+
+.todoList #todoListItems li .nodeItem {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.todoList #todoListItems li button {
+    background-color: rgb(28, 78, 28);
+    padding: 4px 8px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#editor {
+    display: none;
+}
